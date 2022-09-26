@@ -14,8 +14,6 @@ int main(){
     
     struct listnode *head=NULL;
     head=(struct listnode *)malloc(sizeof(struct listnode));
-    
-    
     head-> val=1;
    struct listnode *second=NULL;
    second=(struct listnode *)malloc(sizeof(struct listnode));

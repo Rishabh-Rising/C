@@ -177,7 +177,8 @@ void Transpose (int m, int n, int a, int b, int array1[m][n], int array2[a][b])
   else
     {
       printf ("\tInvalid input");
- int main (){
+    }}
+int main (){
   int m, n, a, b, option;
   printf ("Enter no of rows of first matrix: ");
   scanf ("%d", &m);
@@ -216,4 +217,4 @@ void Transpose (int m, int n, int a, int b, int array1[m][n], int array2[a][b])
 	  printf ("Invalid input");
 	} }
   while (1);
-  return0;}
+  return 0;}
